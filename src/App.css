@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border-style:none;
+  margin-left: 10px;
+}
+.container {
+  text-align: center;;
+}
+
+.edit-btn,
+.delete-btn,
+.save-btn {
+ margin-left: 5px; 
+}
+
+.edit-btn{
+  Color: black;
+  background-color: white;
+  border-radius: 10px;
+  border-style: dashed;
+}
+
+.delete-btn{
+  Color: white;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.save-btn{
+  background-color: green;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.TodoHeader{
+  color: #000000;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.app-wrapper {
+  background-color: #ffffff; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.925)
+}
